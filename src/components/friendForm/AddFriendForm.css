@@ -1,0 +1,13 @@
+:local(.addForm) {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+:local(.addFormGender) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}

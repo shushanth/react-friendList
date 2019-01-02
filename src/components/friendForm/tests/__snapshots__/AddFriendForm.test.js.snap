@@ -1,0 +1,251 @@
+exports[`Component: <AddFriendForm/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddFriendForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TextInput
+          focusAuto={true}
+          name="addFriend"
+          onInputChange={[Function]}
+          placeholder="Type the name of a friend"
+          type="text"
+          updateOnkeyDown={true}
+          value="" />,
+        <div
+          className="">
+          <RadioGroup
+                    name="gender"
+                    onRadioChange={[Function]}
+                    radioValue="Male">
+                    <RadioOption
+                              value="Male" />
+                    <RadioOption
+                              value="Female" />
+          </RadioGroup>
+</div>,
+      ],
+      "className": "",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "focusAuto": true,
+          "name": "addFriend",
+          "onInputChange": [Function],
+          "placeholder": "Type the name of a friend",
+          "type": "text",
+          "updateOnkeyDown": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RadioGroup
+            name="gender"
+            onRadioChange={[Function]}
+            radioValue="Male">
+            <RadioOption
+                        value="Male" />
+            <RadioOption
+                        value="Female" />
+</RadioGroup>,
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <RadioOption
+                value="Male" />,
+              <RadioOption
+                value="Female" />,
+            ],
+            "name": "gender",
+            "onRadioChange": [Function],
+            "radioValue": "Male",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "value": "Male",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "value": "Female",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TextInput
+            focusAuto={true}
+            name="addFriend"
+            onInputChange={[Function]}
+            placeholder="Type the name of a friend"
+            type="text"
+            updateOnkeyDown={true}
+            value="" />,
+          <div
+            className="">
+            <RadioGroup
+                        name="gender"
+                        onRadioChange={[Function]}
+                        radioValue="Male">
+                        <RadioOption
+                                    value="Male" />
+                        <RadioOption
+                                    value="Female" />
+            </RadioGroup>
+</div>,
+        ],
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "focusAuto": true,
+            "name": "addFriend",
+            "onInputChange": [Function],
+            "placeholder": "Type the name of a friend",
+            "type": "text",
+            "updateOnkeyDown": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RadioGroup
+              name="gender"
+              onRadioChange={[Function]}
+              radioValue="Male">
+              <RadioOption
+                            value="Male" />
+              <RadioOption
+                            value="Female" />
+</RadioGroup>,
+            "className": "",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <RadioOption
+                  value="Male" />,
+                <RadioOption
+                  value="Female" />,
+              ],
+              "name": "gender",
+              "onRadioChange": [Function],
+              "radioValue": "Male",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "value": "Male",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "value": "Female",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

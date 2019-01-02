@@ -1,0 +1,21 @@
+:local(.radioOption) {
+  align-items: center;
+  cursor: pointer;
+  display: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:local(.radioOption input) {
+  margin: 0;
+}
+
+:local(.radioOption label) {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin: 0 0.5em -0.1em;
+  padding: 0;
+}

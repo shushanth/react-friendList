@@ -1,0 +1,4 @@
+:local(.gridColumn) {
+  display: inherit;
+  flex: 0 0 65%;
+}

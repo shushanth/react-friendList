@@ -1,0 +1,1377 @@
+exports[`Component: <FriendListApp/> should have add friend component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <FriendListApp
+      addFriend={[Function]}
+      deleteFriend={[Function]}
+      friendlist={
+            Object {
+                  "friendsById": Array [
+                    Object {
+                      "gender": "Male",
+                      "id": 1,
+                      "name": "Theodore Roosevelt",
+                      "starred": true,
+                    },
+                  ],
+                  "pageSize": 2,
+                  "selectedPage": 1,
+                }
+      }
+      pageChange={[Function]}
+      pageMove={[Function]}
+      starFriend={[Function]} />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              The FriendList
+</h1>,
+            <AddFriendForm
+              addFriend={[Function]}
+              pageMove={[Function]} />,
+            <FriendList
+              actions={
+                            Object {
+                                          "addFriend": [Function],
+                                          "deleteFriend": [Function],
+                                          "pageChange": [Function],
+                                          "pageMove": [Function],
+                                          "starFriend": [Function],
+                                        }
+              }
+              friends={
+                            Array [
+                                          Object {
+                                            "gender": "Male",
+                                            "id": 1,
+                                            "name": "Theodore Roosevelt",
+                                            "starred": true,
+                                          },
+                                        ]
+              }
+              pageSize={2}
+              selectedPage={1} />,
+            null,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "The FriendList",
+            },
+            "ref": null,
+            "rendered": "The FriendList",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "addFriend": [Function],
+              "pageMove": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "actions": Object {
+                "addFriend": [Function],
+                "deleteFriend": [Function],
+                "pageChange": [Function],
+                "pageMove": [Function],
+                "starFriend": [Function],
+              },
+              "friends": Array [
+                Object {
+                  "gender": "Male",
+                  "id": 1,
+                  "name": "Theodore Roosevelt",
+                  "starred": true,
+                },
+              ],
+              "pageSize": 2,
+              "selectedPage": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactFifteenAdapter {
+        "options": Object {
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "prevContext": true,
+            },
+          },
+          "supportPrevContextArgumentOfComponentDidUpdate": true,
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "addFriend": [Function],
+      "pageMove": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "addFriend": [Function],
+        "pageMove": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+  Symbol(enzyme.__rootNodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+}
+`;
+
+exports[`Component: <FriendListApp/> should have friend list component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <FriendListApp
+      addFriend={[Function]}
+      deleteFriend={[Function]}
+      friendlist={
+            Object {
+                  "friendsById": Array [
+                    Object {
+                      "gender": "Male",
+                      "id": 1,
+                      "name": "Theodore Roosevelt",
+                      "starred": true,
+                    },
+                  ],
+                  "pageSize": 2,
+                  "selectedPage": 1,
+                }
+      }
+      pageChange={[Function]}
+      pageMove={[Function]}
+      starFriend={[Function]} />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              The FriendList
+</h1>,
+            <AddFriendForm
+              addFriend={[Function]}
+              pageMove={[Function]} />,
+            <FriendList
+              actions={
+                            Object {
+                                          "addFriend": [Function],
+                                          "deleteFriend": [Function],
+                                          "pageChange": [Function],
+                                          "pageMove": [Function],
+                                          "starFriend": [Function],
+                                        }
+              }
+              friends={
+                            Array [
+                                          Object {
+                                            "gender": "Male",
+                                            "id": 1,
+                                            "name": "Theodore Roosevelt",
+                                            "starred": true,
+                                          },
+                                        ]
+              }
+              pageSize={2}
+              selectedPage={1} />,
+            null,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "The FriendList",
+            },
+            "ref": null,
+            "rendered": "The FriendList",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "addFriend": [Function],
+              "pageMove": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "actions": Object {
+                "addFriend": [Function],
+                "deleteFriend": [Function],
+                "pageChange": [Function],
+                "pageMove": [Function],
+                "starFriend": [Function],
+              },
+              "friends": Array [
+                Object {
+                  "gender": "Male",
+                  "id": 1,
+                  "name": "Theodore Roosevelt",
+                  "starred": true,
+                },
+              ],
+              "pageSize": 2,
+              "selectedPage": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactFifteenAdapter {
+        "options": Object {
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "prevContext": true,
+            },
+          },
+          "supportPrevContextArgumentOfComponentDidUpdate": true,
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "actions": Object {
+        "addFriend": [Function],
+        "deleteFriend": [Function],
+        "pageChange": [Function],
+        "pageMove": [Function],
+        "starFriend": [Function],
+      },
+      "friends": Array [
+        Object {
+          "gender": "Male",
+          "id": 1,
+          "name": "Theodore Roosevelt",
+          "starred": true,
+        },
+      ],
+      "pageSize": 2,
+      "selectedPage": 1,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "actions": Object {
+          "addFriend": [Function],
+          "deleteFriend": [Function],
+          "pageChange": [Function],
+          "pageMove": [Function],
+          "starFriend": [Function],
+        },
+        "friends": Array [
+          Object {
+            "gender": "Male",
+            "id": 1,
+            "name": "Theodore Roosevelt",
+            "starred": true,
+          },
+        ],
+        "pageSize": 2,
+        "selectedPage": 1,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+  Symbol(enzyme.__rootNodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+}
+`;
+
+exports[`Component: <FriendListApp/> should have not friend pagination component, when friends are less than two 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <FriendListApp
+      addFriend={[Function]}
+      deleteFriend={[Function]}
+      friendlist={
+            Object {
+                  "friendsById": Array [
+                    Object {
+                      "gender": "Male",
+                      "id": 1,
+                      "name": "Theodore Roosevelt",
+                      "starred": true,
+                    },
+                  ],
+                  "pageSize": 2,
+                  "selectedPage": 1,
+                }
+      }
+      pageChange={[Function]}
+      pageMove={[Function]}
+      starFriend={[Function]} />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              The FriendList
+</h1>,
+            <AddFriendForm
+              addFriend={[Function]}
+              pageMove={[Function]} />,
+            <FriendList
+              actions={
+                            Object {
+                                          "addFriend": [Function],
+                                          "deleteFriend": [Function],
+                                          "pageChange": [Function],
+                                          "pageMove": [Function],
+                                          "starFriend": [Function],
+                                        }
+              }
+              friends={
+                            Array [
+                                          Object {
+                                            "gender": "Male",
+                                            "id": 1,
+                                            "name": "Theodore Roosevelt",
+                                            "starred": true,
+                                          },
+                                        ]
+              }
+              pageSize={2}
+              selectedPage={1} />,
+            null,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "The FriendList",
+            },
+            "ref": null,
+            "rendered": "The FriendList",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "addFriend": [Function],
+              "pageMove": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "actions": Object {
+                "addFriend": [Function],
+                "deleteFriend": [Function],
+                "pageChange": [Function],
+                "pageMove": [Function],
+                "starFriend": [Function],
+              },
+              "friends": Array [
+                Object {
+                  "gender": "Male",
+                  "id": 1,
+                  "name": "Theodore Roosevelt",
+                  "starred": true,
+                },
+              ],
+              "pageSize": 2,
+              "selectedPage": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactFifteenAdapter {
+        "options": Object {
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "prevContext": true,
+            },
+          },
+          "supportPrevContextArgumentOfComponentDidUpdate": true,
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): undefined,
+  Symbol(enzyme.__nodes__): Array [],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+  Symbol(enzyme.__rootNodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+}
+`;
+
+exports[`Component: <FriendListApp/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FriendListApp
+    addFriend={[Function]}
+    deleteFriend={[Function]}
+    friendlist={
+        Object {
+            "friendsById": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          }
+    }
+    pageChange={[Function]}
+    pageMove={[Function]}
+    starFriend={[Function]} />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          The FriendList
+</h1>,
+        <AddFriendForm
+          addFriend={[Function]}
+          pageMove={[Function]} />,
+        <FriendList
+          actions={
+                    Object {
+                              "addFriend": [Function],
+                              "deleteFriend": [Function],
+                              "pageChange": [Function],
+                              "pageMove": [Function],
+                              "starFriend": [Function],
+                            }
+          }
+          friends={
+                    Array [
+                              Object {
+                                "gender": "Male",
+                                "id": 1,
+                                "name": "Theodore Roosevelt",
+                                "starred": true,
+                              },
+                            ]
+          }
+          pageSize={2}
+          selectedPage={1} />,
+        null,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "The FriendList",
+        },
+        "ref": null,
+        "rendered": "The FriendList",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "addFriend": [Function],
+          "pageMove": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "actions": Object {
+            "addFriend": [Function],
+            "deleteFriend": [Function],
+            "pageChange": [Function],
+            "pageMove": [Function],
+            "starFriend": [Function],
+          },
+          "friends": Array [
+            Object {
+              "gender": "Male",
+              "id": 1,
+              "name": "Theodore Roosevelt",
+              "starred": true,
+            },
+          ],
+          "pageSize": 2,
+          "selectedPage": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            The FriendList
+</h1>,
+          <AddFriendForm
+            addFriend={[Function]}
+            pageMove={[Function]} />,
+          <FriendList
+            actions={
+                        Object {
+                                    "addFriend": [Function],
+                                    "deleteFriend": [Function],
+                                    "pageChange": [Function],
+                                    "pageMove": [Function],
+                                    "starFriend": [Function],
+                                  }
+            }
+            friends={
+                        Array [
+                                    Object {
+                                      "gender": "Male",
+                                      "id": 1,
+                                      "name": "Theodore Roosevelt",
+                                      "starred": true,
+                                    },
+                                  ]
+            }
+            pageSize={2}
+            selectedPage={1} />,
+          null,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The FriendList",
+          },
+          "ref": null,
+          "rendered": "The FriendList",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "addFriend": [Function],
+            "pageMove": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "actions": Object {
+              "addFriend": [Function],
+              "deleteFriend": [Function],
+              "pageChange": [Function],
+              "pageMove": [Function],
+              "starFriend": [Function],
+            },
+            "friends": Array [
+              Object {
+                "gender": "Male",
+                "id": 1,
+                "name": "Theodore Roosevelt",
+                "starred": true,
+              },
+            ],
+            "pageSize": 2,
+            "selectedPage": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

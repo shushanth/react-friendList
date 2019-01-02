@@ -1,0 +1,141 @@
+exports[`Component: <RadioOption/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RadioOption
+    isChecked={false}
+    name="test"
+    onChange={[Function]}
+    value="Test" />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          checked={false}
+          className=""
+          id="Test"
+          name="test"
+          onChange={[Function]}
+          type="radio"
+          value="Test" />,
+        <label
+          htmlFor="Test">
+          Test
+</label>,
+      ],
+      "className": "",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "checked": false,
+          "className": "",
+          "id": "Test",
+          "name": "test",
+          "onChange": [Function],
+          "type": "radio",
+          "value": "Test",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test",
+          "htmlFor": "Test",
+        },
+        "ref": null,
+        "rendered": "Test",
+        "type": "label",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            checked={false}
+            className=""
+            id="Test"
+            name="test"
+            onChange={[Function]}
+            type="radio"
+            value="Test" />,
+          <label
+            htmlFor="Test">
+            Test
+</label>,
+        ],
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "checked": false,
+            "className": "",
+            "id": "Test",
+            "name": "test",
+            "onChange": [Function],
+            "type": "radio",
+            "value": "Test",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test",
+            "htmlFor": "Test",
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": "label",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

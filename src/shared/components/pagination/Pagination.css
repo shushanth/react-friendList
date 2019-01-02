@@ -1,0 +1,23 @@
+:local(.pagination) {
+  display: inherit;
+}
+
+:local(.pageBtn) {
+  padding: 0 0.3em;
+}
+
+:local(.pageBtn button) {
+  border-radius: 50%;
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: normal;
+  height: 1.9em;
+  width: 1.9em;
+}
+
+:local(.pageBtn .pageSelected) {
+  color: inherit;
+  background-color: #fff;
+}

@@ -1,0 +1,41 @@
+:local(.friendList) {
+  padding: 0;
+  margin: 0;
+  max-height: 14em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.friendListItems) {
+  display: inherit;
+}
+
+:local(.friendListItem) {
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+  display: inherit;
+  list-style: none;
+  padding: 20px;
+  width: 100%;
+}
+
+:local(.friendInfos) {
+  flex: 1 0 auto;
+}
+
+:local(.friendInfos span) {
+  font-weight: bold;
+}
+
+:local(.btnAction),
+:local(.btnAction):active,
+:local(.btnAction):focus,
+:local(.btnAction):hover {
+  margin-right: 5px;
+  color: #5c75b0;
+}
+
+button:focus {
+  outline: 0 !important;
+}

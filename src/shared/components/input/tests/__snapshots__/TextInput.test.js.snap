@@ -1,0 +1,69 @@
+exports[`Component: <TextInput/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput
+    focusAuto={true}
+    name="Test"
+    onInputChange={[Function]}
+    placeholder="test placeholder"
+    type="text"
+    value="" />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "autoFocus": true,
+      "className": "form-control",
+      "name": "Test",
+      "onChange": [Function],
+      "onKeyDown": [Function],
+      "placeholder": "test placeholder",
+      "type": "text",
+      "value": "",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "input",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "autoFocus": true,
+        "className": "form-control",
+        "name": "Test",
+        "onChange": [Function],
+        "onKeyDown": [Function],
+        "placeholder": "test placeholder",
+        "type": "text",
+        "value": "",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "input",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

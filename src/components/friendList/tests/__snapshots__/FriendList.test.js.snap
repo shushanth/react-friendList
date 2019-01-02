@@ -1,0 +1,80 @@
+exports[`Component: <FriendList/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FriendList
+    actions={
+        Object {
+            "deleteFriend": [Function],
+            "pageMove": [Function],
+            "starFriend": [Function],
+          }
+    }
+    friends={
+        Array [
+            Object {
+              "gender": "Male",
+              "id": 1,
+              "name": "Theodore Roosevelt",
+              "starred": true,
+            },
+            Object {
+              "gender": "Female",
+              "id": 2,
+              "name": "Abraham Lincoln",
+              "starred": false,
+            },
+            Object {
+              "gender": "Male",
+              "id": 3,
+              "name": "George Washington",
+              "starred": false,
+            },
+          ]
+    } />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [],
+      "className": "",
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [],
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

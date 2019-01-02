@@ -1,0 +1,139 @@
+exports[`Component: <RadioGroup/> should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RadioGroup
+    name="gender"
+    onRadioChange={[Function]}
+    radioValue="Female">
+    <RadioOption
+        value="Male" />
+    <RadioOption
+        value="Female" />
+</RadioGroup>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <RadioOption
+          isChecked={false}
+          name="nodejs"
+          onChange={[Function]}
+          value="Male" />,
+        <RadioOption
+          isChecked={true}
+          name="nodejs"
+          onChange={[Function]}
+          value="Female" />,
+      ],
+      "className": "",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": ".0",
+        "nodeType": "function",
+        "props": Object {
+          "isChecked": false,
+          "name": "nodejs",
+          "onChange": [Function],
+          "value": "Male",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": ".1",
+        "nodeType": "function",
+        "props": Object {
+          "isChecked": true,
+          "name": "nodejs",
+          "onChange": [Function],
+          "value": "Female",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <RadioOption
+            isChecked={false}
+            name="nodejs"
+            onChange={[Function]}
+            value="Male" />,
+          <RadioOption
+            isChecked={true}
+            name="nodejs"
+            onChange={[Function]}
+            value="Female" />,
+        ],
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": ".0",
+          "nodeType": "function",
+          "props": Object {
+            "isChecked": false,
+            "name": "nodejs",
+            "onChange": [Function],
+            "value": "Male",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": ".1",
+          "nodeType": "function",
+          "props": Object {
+            "isChecked": true,
+            "name": "nodejs",
+            "onChange": [Function],
+            "value": "Female",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "prevContext": true,
+          },
+        },
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
